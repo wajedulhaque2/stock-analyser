@@ -48,7 +48,7 @@ html, body, [class*="css"] { font-family: Arial, "Helvetica Neue", sans-serif; }
 header[data-testid="stHeader"] { background: var(--bg); }
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
-h1 { font-size: 1.55rem !important; letter-spacing: .04em; font-weight: 700 !important; margin-bottom: .15rem !important; }
+h1 { font-size: 1.7rem !important; letter-spacing: -.025em; font-weight: 700 !important; margin-bottom: .15rem !important; }
 h2 { font-size: 1.02rem !important; letter-spacing: .03em; text-transform: uppercase; border-bottom: 1px solid var(--line); padding-bottom: .42rem; }
 h3 { font-size: .90rem !important; letter-spacing: .02em; text-transform: uppercase; }
 p, li, label { font-size: .90rem; }
@@ -57,16 +57,16 @@ p, li, label { font-size: .90rem; }
 [data-testid="stMetricValue"] { font-size: 1.18rem; color: var(--ink); font-variant-numeric: tabular-nums; }
 .stButton > button, .stFormSubmitButton > button {
     border: 1px solid var(--accent); background: var(--accent); color: #f3f1ec;
-    border-radius: 0; padding: .45rem 1rem; font-weight: 600;
+    border-radius: 5px; padding: .45rem 1rem; font-weight: 600;
 }
 .stButton > button:hover, .stFormSubmitButton > button:hover { border-color: #163946; background: #163946; color: #f3f1ec; }
 .stTextInput input, .stNumberInput input {
-    background: #f7f5f0; color: var(--ink); border: 1px solid var(--line); border-radius: 0;
+    background: #f7f5f0; color: var(--ink); border: 1px solid var(--line); border-radius: 5px;
 }
 div[data-testid="stExpander"] { border-radius: 0 !important; border-color: var(--line) !important; background: transparent; }
 button[data-baseweb="tab"] { border-radius: 0 !important; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
 button[data-baseweb="tab"][aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
-[data-testid="stDataFrame"] { border: 1px solid var(--line); border-radius: 0; }
+[data-testid="stDataFrame"] { border: 1px solid var(--line); border-radius: 5px; }
 .statusline { color: var(--muted); font-size: .76rem; letter-spacing: .025em; }
 .decision { border-top: 2px solid var(--accent); border-bottom: 1px solid var(--line); padding: .70rem 0 .58rem 0; margin-bottom: .35rem; min-height: 74px; }
 .decision .label { color: var(--muted); text-transform: uppercase; font-size: .69rem; letter-spacing: .07em; }
