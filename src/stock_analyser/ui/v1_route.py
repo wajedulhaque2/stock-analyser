@@ -42,8 +42,9 @@ V1_SCENARIO_REVENUE_INPUT_KEY = "v1_scenario_preceding_revenue_billions"
 
 V1_ROUTE_CSS = """
 <style>
-.v1-input-shell { border-bottom: 1px solid #c9c7c0; margin: 0 0 .75rem; padding: .15rem 0 .7rem; }
-.v1-input-title { color: #243a4d; font-size: .76rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.v1-input-shell { border-top: 3px solid #1f4e5f; border-bottom: 1px solid #c9c7c0; margin: 0 0 .85rem; padding: .8rem 0 .8rem; }
+.v1-input-title { color: #243a4d; font-size: 1.15rem; font-weight: 750; letter-spacing: -.025em; }
+.v1-input-title span { color: #1f4e5f; }
 .v1-input-note { color: #667078; font-size: .72rem; margin-top: .15rem; }
 .v1-failure { background: #fbfaf7; border-left: 3px solid #7a4944; margin: .8rem 0; padding: .65rem .8rem; }
 .v1-failure-symbol { color: #667078; font-size: .72rem; margin-bottom: .2rem; }
@@ -284,7 +285,7 @@ def render_v1_report_route(
 
     ui.markdown(V1_ROUTE_CSS, unsafe_allow_html=True)
     ui.markdown(
-        '<div class="v1-input-shell"><div class="v1-input-title">Stock research report</div>'
+        '<div class="v1-input-shell"><div class="v1-input-title">Stock Analyser <span>/ Research report</span></div>'
         '<div class="v1-input-note">Enter one listed ticker. Analysis runs only when submitted.</div></div>',
         unsafe_allow_html=True,
     )
